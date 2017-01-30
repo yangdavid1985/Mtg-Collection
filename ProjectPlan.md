@@ -7,3 +7,13 @@
 - [X] List technologies and how they will be used
 - [X] Time log entries
 - [X] Begin project plan
+
+### Week 2
+- [X] Create screen designs with Balsamiq
+- [X] Time logs
+
+### Week 3
+- Create project in Intellij
+- Make JSPs
+- Find Web Service/APIs
+- Design database for project
