@@ -13,8 +13,8 @@
 - [X] Time logs
 
 ### Week 3
-- Create project (structure) in Intellij
-- Make JSPs
-- Find Web Service/APIs
-- Design database for project
+- [X] Create project (structure) in Intellij
+- [X] Make JSPs
+- [X] Find Web Service/APIs (mtg-json)
+- [X] Design database for project
 - Implement Hibernate into project
