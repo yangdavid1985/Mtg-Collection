@@ -17,7 +17,7 @@ Having a site that you can login to see what cards you need when you're out trad
   * Store all cards
   * Add and delete cards
 * Web Services or APIs
-  * API, https://mtgjson.com/
+  * API- http://magicthegathering.io/
 * Bootstrap
 * Logging
   * log4j
@@ -25,4 +25,4 @@ Having a site that you can login to see what cards you need when you're out trad
 * Unit Testing
   * JUnit tests to achieve 80% code coverage
 * Independent Research Topic
-  * 
+  *

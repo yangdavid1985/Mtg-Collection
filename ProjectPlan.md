@@ -18,3 +18,19 @@
 - [X] Find Web Service/APIs (mtg-json)
 - [X] Design database for project
 - Implement Hibernate into project
+
+### Week 4
+- Add log4j to project
+- create database for project
+- Get application to AWS
+
+### Week 5
+- Work on assignment and project servlets
+
+### Week 6
+- Watch week 6 videos
+- Work on week 6 assignments
+- Find team members for team project
+- Deploy application to AWS
+- Create login page
+- Validation for register/login 
