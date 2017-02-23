@@ -1,0 +1,5 @@
+edu/matc/persistance/SessionFactoryProvider.class
+edu/matc/persistance/CollectorsDao.class
+edu/matc/controller/CollectorServlet.class
+edu/matc/entity/Collectors.class
+edu/matc/persistance/Database.class

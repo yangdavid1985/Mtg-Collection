@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/mtg_collections</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">boiyaj24</property>
+
+        <!-- SQL dialect "make change when you deploy"-->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!-- Echo all executed SQL to stdout "line 21 will produce a lot of output, you can turn to false"-->
+        <property name="show_sql">true</property>
+
+        <!-- List the annotated entity class/es "specify which classes need to be mapped from entity(java class) to database" -->
+        <mapping class="edu.matc.entity.Collectors"/>
+
+    </session-factory>
+
+</hibernate-configuration>
