@@ -30,6 +30,7 @@ public class CollectorServlet extends HttpServlet {
         Collectors collectors = new Collectors();
 
         collectorsDao.addUser(collectors);
+        logger.info("Adding user to database");
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/signupSuccess.jsp");
         dispatcher.forward(request, response);

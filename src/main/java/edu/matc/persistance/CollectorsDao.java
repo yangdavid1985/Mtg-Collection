@@ -5,7 +5,6 @@ import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,14 +28,14 @@ public class CollectorsDao {
     }
 
     /**
-     * retrieve a user from database by email
+     * retrieve a user from database by id
      * @return user
      */
-    public Collectors getUser(String email) {
+    public Collectors getUser(int id) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        Collectors user = (Collectors) session.get(Collectors.class, email);
+        Collectors user = (Collectors) session.get(Collectors.class, id);
         transaction.commit();
 
         return user;
