@@ -9,4 +9,6 @@
 | 2/22/17 | Week 6 Activities, Login jsp/servlet| 4 | |
 | 2/26/17 | Week 7 videos | 2 | |
 | 2/26/17 | Deploy app to AWS | 2 | |
-
+| 3/6/17 | Adding j_security | 2 | Not working yet |
+| 3/10/17 | Api test | 3 | Not sure if its correct way to do it|
+| 3/14/17 | j_security, signup validation| 4 | both works now |
