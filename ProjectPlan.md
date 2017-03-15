@@ -31,8 +31,10 @@
 - [X] Watch week 6 videos
 - [X] Work on week 6 assignments
 - [X] Find team members for team project
-- Deploy application to AWS
-- Create login servlet
+- [X] Deploy application to AWS
+
 
 ### Week 7
--
+- [X] Work on j_security
+- [X] validation for signup
+- [X] test magicthegathering.io api
