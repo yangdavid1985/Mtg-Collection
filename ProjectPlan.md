@@ -35,6 +35,9 @@
 
 
 ### Week 7
+- [X] Use jackson to generate pojo
+- [X] test magicthegathering.io api
+
+### Week 8
 - [X] Work on j_security
 - [X] validation for signup
-- [X] test magicthegathering.io api
