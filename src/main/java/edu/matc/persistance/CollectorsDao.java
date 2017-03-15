@@ -2,9 +2,12 @@ package edu.matc.persistance;
 
 import edu.matc.entity.Collectors;
 import org.apache.log4j.Logger;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Restrictions;
 
+import javax.persistence.EntityManager;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,44 +16,58 @@ import java.util.List;
      */
 public class CollectorsDao {
 
-    private final Logger log = Logger.getLogger(this.getClass());
+    private final Logger logger = Logger.getLogger(CollectorsDao.class);
 
     /** Return a list of all users
      *
      * @return All users
      */
     public List<Collectors> getAllUsers() {
-        List<Collectors> users = new ArrayList<Collectors>();
+        List<Collectors> collectors = new ArrayList<Collectors>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        users = session.createCriteria(Collectors.class).list();
+        collectors = session.createCriteria(Collectors.class).list();
 
-        return users;
+        return collectors;
     }
 
+    public boolean checkUserAvailability(String email){
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction transaction = session.beginTransaction();
+
+        Collectors collectors = (Collectors) session.get(Collectors.class, email);
+
+        if(collectors == null){
+            return true;
+        } else {
+            return false;
+        }
+    }
     /**
-     * retrieve a user from database by id
+     * retrieve a user from database by email
      * @return user
      */
-    public Collectors getUser(int id) {
+    public Collectors getUser(String email) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        Collectors user = (Collectors) session.get(Collectors.class, id);
+        Collectors user = (Collectors) session.get(Collectors.class, email);
+        logger.info("getting user " + user);
         transaction.commit();
 
         return user;
     }
 
     /**
-     * delete a collector by id
-     * @param id the collector's id
+     * delete a collector by email
+     * @param email the collector's email
      */
-    public void deleteUser(int id) {
+    public void deleteUser(String email) {
         Collectors collectors;
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        collectors = (Collectors) session.get(Collectors.class, id);
+        collectors = (Collectors) session.get(Collectors.class, email);
         session.delete(collectors);
+        logger.info(collectors + "deleted");
         transaction.commit();
         session.close();
     }
@@ -59,9 +76,11 @@ public class CollectorsDao {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
         session.save(collectors);
+        logger.info(collectors + "added");
         transaction.commit();
         session.close();
     }
+
 
     public void saveUser(Collectors collectors) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();

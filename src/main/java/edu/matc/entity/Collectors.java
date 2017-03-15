@@ -11,22 +11,17 @@ import javax.persistence.*;
 @Table(name = "collectors")
 public class Collectors {
 
+    @Id
     @Column(name = "email")
     private String email;
 
     @Column(name = "password")
     private String password;
 
-    @Id
-    @GeneratedValue(generator = "increment")
-    @GenericGenerator(name = "increment", strategy = "increment")
-    @Column(name = "idcollectors")
-    private int id;
 
-    public Collectors(String email, String password, int id) {
+    public Collectors(String email, String password) {
         this.email = email;
         this.password = password;
-        this.id = id;
     }
 
     public Collectors() {
@@ -46,14 +41,6 @@ public class Collectors {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int collectorId) {
-        this.id = id;
     }
 
 }

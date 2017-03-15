@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="CollectorTest" time="1.658" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="CollectorTest" time="2.016" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,5 +63,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CollectorTest" name="getAllCollectors" time="1.658"/>
+  <testcase classname="CollectorTest" name="checkEmailAvailability" time="1.966"/>
+  <testcase classname="CollectorTest" name="getAllCollectors" time="0.05"/>
 </testsuite>

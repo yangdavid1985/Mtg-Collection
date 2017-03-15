@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="MTG-Collections:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="mtgcollections-1.0-SNAPSHOT.war">
+    <root id="archive" name="MTG-Collections.war">
       <element id="artifact" artifact-name="MTG-Collections:war exploded" />
     </root>
   </artifact>

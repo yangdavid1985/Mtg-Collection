@@ -1,5 +1,11 @@
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/Cards.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/persistance/CollectorsDao.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/persistance/SessionFactoryProvider.java
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/LegalitiesItem.java
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/persistance/CollectorRoleDao.java
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/CardsItem.java
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/CollectorRole.java
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/controller/AddCardServlet.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/controller/CollectorServlet.java
-/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/persistance/Database.java
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/CollectorRolePK.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/Collectors.java

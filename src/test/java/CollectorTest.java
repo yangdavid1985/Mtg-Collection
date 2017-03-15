@@ -1,3 +1,4 @@
+import edu.matc.entity.CollectorRole;
 import edu.matc.entity.Collectors;
 import edu.matc.persistance.CollectorsDao;
 import org.junit.Before;
@@ -30,11 +31,18 @@ public class CollectorTest {
 
         addCollector.setEmail("yangdavid1985@gmail.com");
         addCollector.setPassword("boiyaj24");
-        addCollector.setId(1);
         collectorsDao.addUser(addCollector);
 
-        assertNotEquals("Id not available", 0, collectorsDao.getUser(1));
-        assertEquals("Email incorrect", "yangdavid1985@gmail.com", collectorsDao.getUser(1).getEmail());
+        assertEquals("Email incorrect", "yangdavid1985@gmail.com", collectorsDao.getUser(addCollector.getEmail()));
     }
 
+    @Test
+    public void checkEmailAvailability(){
+        CollectorsDao check = new CollectorsDao();
+
+        boolean testAvailable = check.checkUserAvailability("yangdavid1985@gmail.com");
+        boolean testUnavailable = check.checkUserAvailability("test@espngo.com");
+        assertTrue(testAvailable);
+        assertFalse(testUnavailable);
+    }
 }
