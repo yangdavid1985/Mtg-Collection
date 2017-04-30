@@ -12,11 +12,14 @@ import javax.persistence.*;
 public class CollectorRole {
 
     @Id
+    @Column(name = "id")
+    private int id;
+
     @Column(name = "email")
-    public String email;
+    private String email;
 
     @Column(name = "role_name")
-    public String role_name;
+    private String role_name;
 
     public String getEmail() {
         return email;
@@ -33,4 +36,13 @@ public class CollectorRole {
     public void setRole_name(String role_name) {
         this.role_name = role_name;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
 }

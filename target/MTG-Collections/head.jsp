@@ -20,14 +20,18 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.jsp">MTG-Collections</a>
+                <div class="col-md-2">
+                    <a class="navbar-left" href="index.jsp">
+                        <img src="https://s-media-cache-ak0.pinimg.com/originals/ff/46/0c/ff460cfa36599d887f282bb7230fc77f.png" class="img-responsive" alt="mtgPic">
+                    </a>
+                </div>
             </div>
-            <ul class="nav navbar-nav">
-                <li><a href="signup.jsp">Sign Up</a></li>
-                <li><a href="login.jsp">Log In</a></li>
-                <li><a href="searchCollection.jsp">Collection</a></li>
-
-            </ul>
+            <div class="col-md-6">
+                <ul class="nav navbar-nav">
+                    <li><a href="signup.jsp">Sign Up</a></li>
+                    <li><a href="/collection">Collection</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </head>

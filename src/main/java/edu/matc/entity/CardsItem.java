@@ -16,11 +16,8 @@ public class CardsItem{
 	@JsonProperty("multiverseid")
 	private int multiverseid;
 
-	@JsonProperty("types")
-	private List<String> types;
-
-	@JsonProperty("set")
-	private String set;
+	@JsonProperty("foreignNames")
+	private List<ForeignNamesItem> foreignNames;
 
 	@JsonProperty("originalType")
 	private String originalType;
@@ -28,8 +25,8 @@ public class CardsItem{
 	@JsonProperty("artist")
 	private String artist;
 
-	@JsonProperty("legalities")
-	private List<LegalitiesItem> legalities;
+	@JsonProperty("rulings")
+	private List<RulingsItem> rulings;
 
 	@JsonProperty("type")
 	private String type;
@@ -40,26 +37,14 @@ public class CardsItem{
 	@JsonProperty("subtypes")
 	private List<String> subtypes;
 
-	@JsonProperty("flavor")
-	private String flavor;
-
-	@JsonProperty("layout")
-	private String layout;
-
-	@JsonProperty("originalText")
-	private String originalText;
+	@JsonProperty("number")
+	private String number;
 
 	@JsonProperty("printings")
 	private List<String> printings;
 
 	@JsonProperty("imageUrl")
 	private String imageUrl;
-
-	@JsonProperty("name")
-	private String name;
-
-	@JsonProperty("cmc")
-	private int cmc;
 
 	@JsonProperty("text")
 	private String text;
@@ -70,11 +55,149 @@ public class CardsItem{
 	@JsonProperty("id")
 	private String id;
 
-	@JsonProperty("manaCost")
-	private String manaCost;
-
 	@JsonProperty("toughness")
 	private String toughness;
+
+	@JsonProperty("supertypes")
+	private List<String> supertypes;
+
+	@JsonProperty("types")
+	private List<String> types;
+
+	@JsonProperty("timeshifted")
+	private boolean timeshifted;
+
+	@JsonProperty("set")
+	private String set;
+
+	@JsonProperty("loyalty")
+	private int loyalty;
+
+	@JsonProperty("legalities")
+	private List<LegalitiesItem> legalities;
+
+	@JsonProperty("flavor")
+	private String flavor;
+
+	@JsonProperty("layout")
+	private String layout;
+
+	public String getReserve() {
+		return reserve;
+	}
+
+	public void setReserve(String reserve) {
+		this.reserve = reserve;
+	}
+
+	public String getBorder() {
+		return border;
+	}
+
+	public void setBorder(String border) {
+		this.border = border;
+	}
+
+	@JsonProperty("border")
+	private String border;
+
+	@JsonProperty("reserve")
+	private String reserve;
+
+	public String getReserved() {
+		return reserved;
+	}
+
+	public void setReserved(String reserved) {
+		this.reserved = reserved;
+	}
+
+	@JsonProperty("reserved")
+	private String reserved;
+
+
+	public String getWatermark() {
+		return watermark;
+	}
+
+	public void setWatermark(String watermark) {
+		this.watermark = watermark;
+	}
+
+	@JsonProperty("watermark")
+	private String watermark;
+
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+	@JsonProperty("source")
+	private String source;
+
+	public List<String> getVariations() {
+		return variations;
+	}
+
+	public void setVariations(List<String> variations) {
+		this.variations = variations;
+	}
+
+	@JsonProperty("variations")
+	private List<String> variations;
+
+	public String getLife() {
+		return life;
+	}
+
+	public void setLife(String life) {
+		this.life = life;
+	}
+
+	@JsonProperty("life")
+	private String life;
+
+
+	public String getHand() {
+		return hand;
+	}
+
+	public void setHand(String hand) {
+		this.hand = hand;
+	}
+
+	@JsonProperty("hand")
+	private String hand;
+
+
+	public String getReleaseDate() {
+		return releaseDate;
+	}
+
+	public void setReleaseDate(String releaseDate) {
+		this.releaseDate = releaseDate;
+	}
+
+	@JsonProperty("releaseDate")
+	private String releaseDate;
+
+	@JsonProperty("originalText")
+	private String originalText;
+
+	@JsonProperty("names")
+	private List<String> names;
+
+	@JsonProperty("name")
+	private String name;
+
+	@JsonProperty("cmc")
+	private int cmc;
+
+	@JsonProperty("manaCost")
+	private String manaCost;
 
 	@JsonProperty("rarity")
 	private String rarity;
@@ -103,20 +226,12 @@ public class CardsItem{
 		return multiverseid;
 	}
 
-	public void setTypes(List<String> types){
-		this.types = types;
+	public void setForeignNames(List<ForeignNamesItem> foreignNames){
+		this.foreignNames = foreignNames;
 	}
 
-	public List<String> getTypes(){
-		return types;
-	}
-
-	public void setSet(String set){
-		this.set = set;
-	}
-
-	public String getSet(){
-		return set;
+	public List<ForeignNamesItem> getForeignNames(){
+		return foreignNames;
 	}
 
 	public void setOriginalType(String originalType){
@@ -135,12 +250,12 @@ public class CardsItem{
 		return artist;
 	}
 
-	public void setLegalities(List<LegalitiesItem> legalities){
-		this.legalities = legalities;
+	public void setRulings(List<RulingsItem> rulings){
+		this.rulings = rulings;
 	}
 
-	public List<LegalitiesItem> getLegalities(){
-		return legalities;
+	public List<RulingsItem> getRulings(){
+		return rulings;
 	}
 
 	public void setType(String type){
@@ -167,28 +282,12 @@ public class CardsItem{
 		return subtypes;
 	}
 
-	public void setFlavor(String flavor){
-		this.flavor = flavor;
+	public void setNumber(String number){
+		this.number = number;
 	}
 
-	public String getFlavor(){
-		return flavor;
-	}
-
-	public void setLayout(String layout){
-		this.layout = layout;
-	}
-
-	public String getLayout(){
-		return layout;
-	}
-
-	public void setOriginalText(String originalText){
-		this.originalText = originalText;
-	}
-
-	public String getOriginalText(){
-		return originalText;
+	public String getNumber(){
+		return number;
 	}
 
 	public void setPrintings(List<String> printings){
@@ -205,22 +304,6 @@ public class CardsItem{
 
 	public String getImageUrl(){
 		return imageUrl;
-	}
-
-	public void setName(String name){
-		this.name = name;
-	}
-
-	public String getName(){
-		return name;
-	}
-
-	public void setCmc(int cmc){
-		this.cmc = cmc;
-	}
-
-	public int getCmc(){
-		return cmc;
 	}
 
 	public void setText(String text){
@@ -247,20 +330,116 @@ public class CardsItem{
 		return id;
 	}
 
-	public void setManaCost(String manaCost){
-		this.manaCost = manaCost;
-	}
-
-	public String getManaCost(){
-		return manaCost;
-	}
-
 	public void setToughness(String toughness){
 		this.toughness = toughness;
 	}
 
 	public String getToughness(){
 		return toughness;
+	}
+
+	public void setSupertypes(List<String> supertypes){
+		this.supertypes = supertypes;
+	}
+
+	public List<String> getSupertypes(){
+		return supertypes;
+	}
+
+	public void setTypes(List<String> types){
+		this.types = types;
+	}
+
+	public List<String> getTypes(){
+		return types;
+	}
+
+	public void setTimeshifted(boolean timeshifted){
+		this.timeshifted = timeshifted;
+	}
+
+	public boolean isTimeshifted(){
+		return timeshifted;
+	}
+
+	public void setSet(String set){
+		this.set = set;
+	}
+
+	public String getSet(){
+		return set;
+	}
+
+	public void setLoyalty(int loyalty){
+		this.loyalty = loyalty;
+	}
+
+	public int getLoyalty(){
+		return loyalty;
+	}
+
+	public void setLegalities(List<LegalitiesItem> legalities){
+		this.legalities = legalities;
+	}
+
+	public List<LegalitiesItem> getLegalities(){
+		return legalities;
+	}
+
+	public void setFlavor(String flavor){
+		this.flavor = flavor;
+	}
+
+	public String getFlavor(){
+		return flavor;
+	}
+
+	public void setLayout(String layout){
+		this.layout = layout;
+	}
+
+	public String getLayout(){
+		return layout;
+	}
+
+	public void setOriginalText(String originalText){
+		this.originalText = originalText;
+	}
+
+	public String getOriginalText(){
+		return originalText;
+	}
+
+	public void setNames(List<String> names){
+		this.names = names;
+	}
+
+	public List<String> getNames(){
+		return names;
+	}
+
+	public void setName(String name){
+		this.name = name;
+	}
+
+	public String getName(){
+		return name;
+	}
+
+	public void setCmc(int cmc){
+		this.cmc = cmc;
+	}
+
+	public int getCmc(){
+		return cmc;
+	}
+
+	public void setManaCost(String manaCost){
+		this.manaCost = manaCost;
+	}
+
+	public String getManaCost(){
+		return manaCost;
 	}
 
 	public void setRarity(String rarity){

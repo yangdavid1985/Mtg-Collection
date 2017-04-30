@@ -30,6 +30,11 @@ public class CollectorsDao {
         return collectors;
     }
 
+    /**
+     *
+     * @param email
+     * @return
+
     public boolean checkUserAvailability(String email){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
@@ -42,6 +47,9 @@ public class CollectorsDao {
             return false;
         }
     }
+
+    */
+
     /**
      * retrieve a user from database by email
      * @return user
@@ -72,6 +80,10 @@ public class CollectorsDao {
         session.close();
     }
 
+    /**
+     *
+     * @param collectors
+     */
     public void addUser(Collectors collectors){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
@@ -81,7 +93,10 @@ public class CollectorsDao {
         session.close();
     }
 
-
+    /**
+     *
+     * @param collectors
+     */
     public void saveUser(Collectors collectors) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();

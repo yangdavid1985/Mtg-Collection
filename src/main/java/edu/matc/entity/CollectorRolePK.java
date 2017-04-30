@@ -11,4 +11,5 @@ import java.io.Serializable;
 public class CollectorRolePK implements Serializable {
   String role_name;
   String email;
+  int id;
 }

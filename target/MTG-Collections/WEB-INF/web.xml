@@ -18,8 +18,9 @@
   <!-- All sources available only if logged in -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>searchCollection</web-resource-name>
-      <url-pattern>/searchCollection.jsp</url-pattern>
+      <web-resource-name>collection</web-resource-name>
+      <url-pattern>/collection.jsp</url-pattern>
+      <url-pattern>/collection</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>registeredCollector</role-name>

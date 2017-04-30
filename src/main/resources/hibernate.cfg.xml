@@ -23,6 +23,7 @@
         <!-- List the annotated entity class/es "specify which classes need to be mapped from entity(java class) to database" -->
         <mapping class="edu.matc.entity.Collectors"/>
         <mapping class="edu.matc.entity.CollectorRole"/>
+        <mapping class="edu.matc.entity.MTGCards"/>
 
     </session-factory>
 
