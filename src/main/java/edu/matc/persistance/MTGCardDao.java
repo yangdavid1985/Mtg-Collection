@@ -125,4 +125,19 @@ public class MTGCardDao {
 
         return newQuantity;
     }
+
+
+
+    public void setQuantity(String cardName, int quantity, String email) {
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction transaction = session.beginTransaction();
+
+        MTGCards card = (MTGCards) session.get(MTGCards.class, new CardId(cardName, email));
+
+        card.setQuantity(quantity);
+
+        session.update(card);
+        transaction.commit();
+    }
+
 }

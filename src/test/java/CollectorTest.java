@@ -14,6 +14,13 @@ import static org.junit.Assert.*;
  */
 public class CollectorTest {
 
+    //@Test
+    public void geIDByEmail(){
+        CollectorsDao dao = new CollectorsDao();
+        assertEquals("wrong id", 1, dao.getUserId("yangdavid85@gmail.com"));
+    }
+
+
     /**
     CollectorsDao collectorsDao;
 

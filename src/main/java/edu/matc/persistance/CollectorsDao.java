@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 
 import javax.persistence.EntityManager;
@@ -34,6 +35,7 @@ public class CollectorsDao {
      *
      * @param email
      * @return
+     */
 
     public boolean checkUserAvailability(String email){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -48,21 +50,23 @@ public class CollectorsDao {
         }
     }
 
-    */
+
 
     /**
-     * retrieve a user from database by email
-     * @return user
+     * retrieve a userId from database by email
+     * @return users id
      */
-    public Collectors getUser(String email) {
+    public Collectors getUserId(String email) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        Collectors user = (Collectors) session.get(Collectors.class, email);
-        logger.info("getting user " + user);
+
+        Collectors getId = (Collectors) session.get(Collectors.class, email);
+
+        logger.info("getting user " + getId);
         transaction.commit();
 
-        return user;
+        return getId;
     }
 
     /**

@@ -40,7 +40,7 @@
                     <div class="col-sm-offset-2 col-sm-5">
                         <div>
                             Already have an account!
-                            <a href="login.jsp">
+                            <a href="WEB-INF/login.jsp">
                                 Log In Here!
                             </a>
                         </div>

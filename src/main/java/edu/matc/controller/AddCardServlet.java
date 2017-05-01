@@ -161,9 +161,7 @@ public class AddCardServlet extends HttpServlet {
             // display first 5 cards that matched submittedName
             if (cardNames.size() <= 4)
                 cardNames.add(card.getName());
-
         }
-
         return cardNames;
     }
 }

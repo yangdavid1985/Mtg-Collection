@@ -12,9 +12,6 @@ import javax.persistence.*;
 public class Collectors {
 
     @Id
-    @Column(name = "id")
-    private int id;
-
     @Column(name = "email")
     private String email;
 
@@ -22,10 +19,9 @@ public class Collectors {
     private String password;
 
 
-    public Collectors(String email, String password, int id) {
+    public Collectors(String email, String password) {
         this.email = email;
         this.password = password;
-        this.id = id;
     }
 
     public Collectors() {
@@ -45,14 +41,6 @@ public class Collectors {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
 }

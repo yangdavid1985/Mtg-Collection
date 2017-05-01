@@ -38,12 +38,12 @@ public class CollectorServlet extends HttpServlet {
         String password = request.getParameter("password");
         String rePassword = request.getParameter("rePassword");
 
-        /**
+
         // check to see if available
         if(!collectorsDao.checkUserAvailability(email)){
             emailTaken = true;
         }
-        */
+
         // check to see if passwords match
         if(!password.equals(rePassword)){
             passwordMismatch = true;

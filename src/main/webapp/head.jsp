@@ -29,6 +29,7 @@
             <div class="col-md-6">
                 <ul class="nav navbar-nav">
                     <li><a href="signup.jsp">Sign Up</a></li>
+                    <li><a href="/login">Login</a></li>
                     <li><a href="/collection">Collection</a></li>
                 </ul>
             </div>

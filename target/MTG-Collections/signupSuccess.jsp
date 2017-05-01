@@ -5,7 +5,7 @@
             <div class="jumbotron">
                 <h2>Signup Successful</h2>
                     <p>
-                        Thanks for Signing up, you can login <a href="login.jsp">here</a> to starting adding cards to you
+                        Thanks for Signing up, you can login <a href="WEB-INF/login.jsp">here</a> to starting adding cards to you
                         collection.
                     </p>
             </div>

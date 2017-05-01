@@ -26,8 +26,7 @@
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="logout.jsp">Logout</a></li>
-                <li><a href="addCards.jsp">Add Cards</a></li>
-                <li><a href="delete.jsp">Delete Cards</a></li>
+                <li><a href="addCards.jsp">Add New Card</a></li>
             </ul>
         </div>
     </nav>
@@ -43,17 +42,68 @@
                 <tr>
                     <th>Quantity</th>
                     <th>Card Name</th>
+                    <th>Edit</th>
                 </tr>
                 <c:forEach var="card" items="${cards}">
-                    <tr>
-                        <td>${card.quantity}</td>
-                        <td>${card.card_name}<span data-id="${cards.id}"></span></td>
-                        <td><button type="button" class="btn btn-danger">Delete</button></td>
+                    <tr name="cardRow">
+                        <td><input type="text" value="${card.quantity}" /></td>
+                        <td>${card.card_name}</td>
+                        <td><button type="button" class="glyphicon glyphicon-plus" onclick="incrementCard('${card.card_name}')"></button>
+                            <button type="button" class="glyphicon glyphicon-minus" onclick="deleteCard('${card.card_name}')"></button>
+                        </td>
                     </tr>
                 </c:forEach>
             </table>
+            <button type="button" class="btn" onclick="updateCollection()">Save Changes</button>
         </div>
     </div>
 </body>
 </html>
-<script></script>
+<script>
+    deleteCard = function(cardName) {
+        $.ajax({
+            type: "post",
+            url: "deleteCards",
+            data: {"cardName":cardName},
+            success: function(data){
+                location.reload();
+            }
+        });
+    };
+
+    updateCollection = function(){
+        var cards = [];
+        var cardQuantity;
+        var cardName;
+
+        var cardQuantities = [];
+        var cardNames = [];
+
+        $("tr[name='cardRow']").each(function () {
+            cardQuantity = $(this).children("td").eq(0).children().eq(0).val();
+            cardName = $(this).children("td").eq(1).html();
+            cardQuantities.push(cardQuantity);
+            cardNames.push(cardName);
+        });
+
+        $.ajax({
+            type: "post",
+            url: "updateCollection",
+            data: {"cardNames" : cardNames, "cardQuantities" : cardQuantities},
+            success: function(data) {
+                location.reload();
+            }
+        });
+    }
+
+    incrementCard = function (cardName) {
+        $.ajax({
+            type: "post",
+            url: "incrementCard",
+            data: {"cardName" : cardName},
+            success: function (data) {
+                location.reload();
+            }
+        });
+    }
+</script>

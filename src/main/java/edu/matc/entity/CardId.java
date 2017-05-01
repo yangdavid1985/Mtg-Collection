@@ -11,6 +11,7 @@ public class CardId implements Serializable {
     private String card_name;
     private String email;
 
+
     public CardId(String card_name, String email) {
         this.card_name = card_name;
         this.email = email;
@@ -35,4 +36,6 @@ public class CardId implements Serializable {
     public void setEmail(String email) {
         this.email = email;
     }
+
+
 }
