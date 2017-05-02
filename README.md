@@ -4,7 +4,7 @@ This repository will serve as an example for the Spring 2017 Enterprise Java Cla
 
 ### Problem Statement
 Provide a free site where Magic players can keep their collection up to date.
-The site will allow users to sort their collection by set, name, color and quantity.
+The site will allow users to sort their collection by name and quantity.
 Having a site that you can login to see what cards you need when you're out trading and playing.
 
 ### Project Technologies/Techniques

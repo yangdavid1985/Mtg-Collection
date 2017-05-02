@@ -14,46 +14,38 @@ import static org.junit.Assert.*;
  */
 public class CollectorTest {
 
-    //@Test
-    public void geIDByEmail(){
-        CollectorsDao dao = new CollectorsDao();
-        assertEquals("wrong id", 1, dao.getUserId("yangdavid85@gmail.com"));
-    }
-
-
-    /**
     CollectorsDao collectorsDao;
 
-    //@Before
+    @Before
     public void setup(){
         collectorsDao = new CollectorsDao();
     }
 
-    //@Test
+    @Test
     public void getAllCollectors() throws Exception{
         List<Collectors> collectors = collectorsDao.getAllUsers();
         assertTrue(collectors.size() > 0);
     }
 
-    // add test
+    //Test
     public void addCollector(){
         Collectors addCollector = new Collectors();
 
-        addCollector.setEmail("yangdavid1985@gmail.com");
+        addCollector.setEmail("test@gmail.com");
         addCollector.setPassword("boiyaj24");
         collectorsDao.addUser(addCollector);
 
-        assertEquals("Email incorrect", "yangdavid1985@gmail.com", collectorsDao.getUser(addCollector.getEmail()));
+        assertEquals("Email incorrect", "test@gmail.com", collectorsDao.getUser("test@gmail.com"));
     }
 
-    //@Test
+    //Test
     public void checkEmailAvailability(){
         CollectorsDao check = new CollectorsDao();
 
         boolean testAvailable = check.checkUserAvailability("yangdavid1985@gmail.com");
         boolean testUnavailable = check.checkUserAvailability("test@espngo.com");
-        //assertTrue(testAvailable);
+        assertTrue(testAvailable);
         assertFalse(testUnavailable);
     }
-     */
+
 }

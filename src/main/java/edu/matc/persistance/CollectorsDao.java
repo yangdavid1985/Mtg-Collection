@@ -36,7 +36,6 @@ public class CollectorsDao {
      * @param email
      * @return
      */
-
     public boolean checkUserAvailability(String email){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
@@ -48,25 +47,6 @@ public class CollectorsDao {
         } else {
             return false;
         }
-    }
-
-
-
-    /**
-     * retrieve a userId from database by email
-     * @return users id
-     */
-    public Collectors getUserId(String email) {
-
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Transaction transaction = session.beginTransaction();
-
-        Collectors getId = (Collectors) session.get(Collectors.class, email);
-
-        logger.info("getting user " + getId);
-        transaction.commit();
-
-        return getId;
     }
 
     /**
@@ -95,6 +75,15 @@ public class CollectorsDao {
         logger.info(collectors + "added");
         transaction.commit();
         session.close();
+    }
+
+    public String getUser(String email){
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction transaction = session.beginTransaction();
+        Collectors user = (Collectors) session.get(Collectors.class, email);
+        transaction.commit();
+
+        return email;
     }
 
     /**

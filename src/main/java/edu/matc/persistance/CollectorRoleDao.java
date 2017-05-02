@@ -1,6 +1,7 @@
 package edu.matc.persistance;
 
 import edu.matc.entity.CollectorRole;
+import edu.matc.entity.Collectors;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

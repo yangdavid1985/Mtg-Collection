@@ -33,6 +33,5 @@ public class IncreaseCard extends HttpServlet {
         logger.info("incrementing card");
 
         dao.addCard(cardName, email);
-
     }
 }

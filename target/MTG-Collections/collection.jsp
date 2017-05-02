@@ -13,6 +13,8 @@
     <title>MTG-Collection</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -38,7 +40,7 @@
             <h3>${user}'s collection</h3>
         </div>
         <div class="table-responsive">
-            <table class="table table-striped">
+            <table id="sort" class="table table-striped table-bordered">
                 <tr>
                     <th>Quantity</th>
                     <th>Card Name</th>
@@ -46,9 +48,14 @@
                 </tr>
                 <c:forEach var="card" items="${cards}">
                     <tr name="cardRow">
-                        <td><input type="text" value="${card.quantity}" /></td>
-                        <td>${card.card_name}</td>
-                        <td><button type="button" class="glyphicon glyphicon-plus" onclick="incrementCard('${card.card_name}')"></button>
+                        <td class="col-md-4">
+
+                            <input type="text" class="col-xs-2"  value="${card.quantity}" />
+
+                        </td>
+                        <td class="col-md-4">${card.card_name}</td>
+                        <td class="col-md-4">
+                            <button type="button" class="glyphicon glyphicon-plus" onclick="incrementCard('${card.card_name}')"></button>
                             <button type="button" class="glyphicon glyphicon-minus" onclick="deleteCard('${card.card_name}')"></button>
                         </td>
                     </tr>
@@ -106,4 +113,8 @@
             }
         });
     }
+
+    $(document).ready(function() {
+        $('#sort').DataTable();
+    } );
 </script>

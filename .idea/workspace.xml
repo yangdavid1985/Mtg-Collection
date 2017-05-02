@@ -2,60 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecdded9e-cdaa-4dc6-a567-d6ad247d8b34" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MTG-Collections/META-INF/maven/edu.matc.mtgcollections/mtgcollections/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MTG-Collections/META-INF/maven/edu.matc.mtgcollections/mtgcollections/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MTG-Collections/login.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections.war" afterPath="$PROJECT_DIR$/target/MTG-Collections.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/AddCardServlet.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/AddCardServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectionServlet.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectorServlet.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/DeleteCards.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/DeleteCards.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/CardId.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/CardId.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/CollectorRole.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/CollectorRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/CollectorRolePK.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/CollectorRolePK.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/Collectors.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/entity/Collectors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/IncreaseCard.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/IncreaseCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorRoleDao.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorRoleDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorsDao.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/MTGCardDao.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/MTGCardDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/AddCardServlet.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/AddCardServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectionServlet.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectorServlet.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/DeleteCards.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/DeleteCards.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/entity/CardId.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/entity/CardId.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/entity/CollectorRole.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/entity/CollectorRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/entity/CollectorRolePK.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/entity/CollectorRolePK.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/entity/Collectors.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/entity/Collectors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/IncreaseCard.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/IncreaseCard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorRoleDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorRoleDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorsDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/persistance/MTGCardDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/persistance/MTGCardDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/CollectorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CollectorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/2429e1fe-82a6-4863-8484-6588b3a586b5.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/2429e1fe-82a6-4863-8484-6588b3a586b5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MTGCardDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MTGCardDaoTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyAppLog.log" afterPath="$PROJECT_DIR$/MyAppLog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectionServlet.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/DeleteCards.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/DeleteCards.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/CardId.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/CardId.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/CollectorRole.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/CollectorRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/CollectorRolePK.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/CollectorRolePK.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/Collectors.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/Collectors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/IncreaseCard.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/IncreaseCard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/MTGCardDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/MTGCardDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/addCards.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/addCards.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/collection.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/collection.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/signup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/signupSuccess.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/signupSuccess.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CollectorTest.java" afterPath="$PROJECT_DIR$/src/test/java/CollectorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/MTG-Collections/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MTGCardDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/MTGCardDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/collection.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/collection.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/addCards.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/addCards.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/collection.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/collection.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/head.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/signup.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/signupSuccess.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/signupSuccess.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/collection.jsp" afterPath="$PROJECT_DIR$/target/classes/collection.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,47 +104,47 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="collection.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="collection.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/collection.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            <state relative-caret-position="428">
+              <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncreaseCard.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/IncreaseCard.java">
+      <file leaf-file-name="CollectorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CollectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1493676980000" expanded="false" signature="387:397" ph=" { " />
+                <marker date="1493676980000" expanded="false" signature="433:439" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddCardServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java">
+      <file leaf-file-name="logout.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/logout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4770#4778#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectorServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-298">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateCollection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/UpdateCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,20 +152,8 @@
       <file leaf-file-name="CollectorsDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-675">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectorRoleDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="-600">
+              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -232,7 +189,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/collectionLogin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CardsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java" />
         <option value="$PROJECT_DIR$/TimeLog.md" />
         <option value="$PROJECT_DIR$/src/test/java/CardsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/entity/CollectorRoleTest.java" />
@@ -260,10 +216,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/CardJson.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/Cards.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/ForeignNamesItem.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/addCards.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/CardsItem.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MTGCardDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CollectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/MTGCards.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/CardId.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectionServlet.java" />
@@ -271,15 +224,19 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/Collectors.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/CollectorRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/DeleteCards.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistance/MTGCardDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/UpdateCollection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/head.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/IncreaseCard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MTGCardDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addCards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CollectorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/controller/UpdateCollection.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/collection.jsp" />
       </list>
     </option>
@@ -631,6 +588,27 @@
     </key>
   </component>
   <component name="RunManager" selected="TomEE Server.MTG-Collections">
+    <configuration default="false" name="MTGCardDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MTG-Collections" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MTGCardDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="MTGCardDaoTest.getCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MTG-Collections" />
@@ -652,36 +630,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MTGServiceTest.testMagicAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MTG-Collections" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MTGServiceTest" />
-      <option name="METHOD_NAME" value="testMagicAPI" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CollectorTest.getUserByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CollectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MTG-Collections" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CollectorTest" />
-      <option name="METHOD_NAME" value="getUserByEmail" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -694,14 +651,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CollectorTest.geIDByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CollectorTest.addCollector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MTG-Collections" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CollectorTest" />
-      <option name="METHOD_NAME" value="geIDByEmail" />
+      <option name="METHOD_NAME" value="addCollector" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -715,7 +672,25 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="head.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/head.jsp">
+    <configuration default="false" name="CollectorTest.checkEmailAvailability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MTG-Collections" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CollectorTest" />
+      <option name="METHOD_NAME" value="checkEmailAvailability" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1219,19 +1194,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="TomEE Server.MTG-Collections" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MTGCardDaoTest.getCard" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MTGServiceTest.testMagicAPI" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectorTest.getUserByEmail" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectorTest.geIDByEmail" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.head.jsp" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MTGCardDaoTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MTGCardDaoTest.getCard" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectorTest.addCollector" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CollectorTest.checkEmailAvailability" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectorTest.geIDByEmail" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectorTest.getUserByEmail" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.head.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MTGCardDaoTest.getCard" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MTGServiceTest.testMagicAPI" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectorTest.checkEmailAvailability" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectorTest.addCollector" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MTGCardDaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MTGCardDaoTest.getCard" />
       </list>
     </recent_temporary>
   </component>
@@ -1275,44 +1250,44 @@
       <workItem from="1492553126833" duration="271000" />
       <workItem from="1492613253266" duration="25724000" />
       <workItem from="1493143861102" duration="1735000" />
-      <workItem from="1493179577850" duration="51206000" />
+      <workItem from="1493179577850" duration="56225000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectorTest_geIDByEmail - 2017.05.01 at 11h 09m 21s.xml">
-      <configuration name="CollectorTest.geIDByEmail" configurationId="JUnit" />
+    <history-entry file="CollectorTest - 2017.05.01 at 17h 07m 14s.xml">
+      <configuration name="CollectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorTest_geIDByEmail - 2017.05.01 at 11h 10m 15s.xml">
-      <configuration name="CollectorTest.geIDByEmail" configurationId="JUnit" />
+    <history-entry file="CollectorTest_addCollector - 2017.05.01 at 17h 14m 14s.xml">
+      <configuration name="CollectorTest.addCollector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorTest_getUserByEmail - 2017.04.30 at 17h 01m 59s.xml">
-      <configuration name="CollectorTest.getUserByEmail" configurationId="JUnit" />
+    <history-entry file="CollectorTest_addCollector - 2017.05.01 at 17h 14m 43s.xml">
+      <configuration name="CollectorTest.addCollector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorTest_getUserByEmail - 2017.04.30 at 17h 02m 43s.xml">
-      <configuration name="CollectorTest.getUserByEmail" configurationId="JUnit" />
+    <history-entry file="CollectorTest_addCollector - 2017.05.01 at 17h 14m 51s.xml">
+      <configuration name="CollectorTest.addCollector" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorTest_getUserByEmail - 2017.05.01 at 08h 27m 53s.xml">
-      <configuration name="CollectorTest.getUserByEmail" configurationId="JUnit" />
+    <history-entry file="CollectorTest_checkEmailAvailability - 2017.05.01 at 17h 15m 57s.xml">
+      <configuration name="CollectorTest.checkEmailAvailability" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MTGmavenTest_getName - 2017.04.13 at 16h 23m 15s.xml">
-      <configuration name="MTGmavenTest.getName" configurationId="JUnit" />
+    <history-entry file="MTGCardDaoTest - 2017.05.01 at 16h 54m 23s.xml">
+      <configuration name="MTGCardDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MTGmavenTest_getName - 2017.04.13 at 16h 29m 21s.xml">
-      <configuration name="MTGmavenTest.getName" configurationId="JUnit" />
+    <history-entry file="MTGCardDaoTest_getCard - 2017.05.01 at 16h 53m 22s.xml">
+      <configuration name="MTGCardDaoTest.getCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MTGmavenTest_getName - 2017.04.18 at 11h 32m 59s.xml">
-      <configuration name="MTGmavenTest.getName" configurationId="JUnit" />
+    <history-entry file="MTGCardDaoTest_getCard - 2017.05.01 at 16h 53m 55s.xml">
+      <configuration name="MTGCardDaoTest.getCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MTGmavenTest_getName - 2017.04.18 at 11h 34m 13s.xml">
-      <configuration name="MTGmavenTest.getName" configurationId="JUnit" />
+    <history-entry file="MTGCardDaoTest_getCard - 2017.05.01 at 16h 54m 12s.xml">
+      <configuration name="MTGCardDaoTest.getCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MTGmavenTest_getName - 2017.04.18 at 11h 38m 20s.xml">
-      <configuration name="MTGmavenTest.getName" configurationId="JUnit" />
+    <history-entry file="MTGCardDaoTest_removeExistingCard - 2017.05.01 at 16h 52m 53s.xml">
+      <configuration name="MTGCardDaoTest.removeExistingCard" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233093000" />
+    <option name="totallyTimeSpent" value="238112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="34" width="1267" height="692" extended-state="0" />
@@ -1426,464 +1401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collectors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CollectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <marker date="1493655201000" expanded="false" signature="574:584" ph=" { " />
-            <marker date="1493655201000" expanded="false" signature="620:626" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/CardJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/LegalitiesItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addCards.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/ForeignNamesItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/CollectorRolePK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/Cards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/CardsItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/CardId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/MTGCards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/CollectorRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/UpdateCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/DeleteCards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/MTGCardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1926,40 +1443,534 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/collection.jsp">
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/MTGCardDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="281">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="-315">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#4770#4778#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/IncreaseCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MTGCardDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addCards.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collector_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collector_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collector_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collectors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collectors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collectors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collector_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collector_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CollectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <marker date="1493676980000" expanded="false" signature="387:397" ph=" { " />
+            <marker date="1493676980000" expanded="false" signature="433:439" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/SessionFactoryProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/UpdateCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collections">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collectors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collectors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collector_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b8b485db/2429e1fe-82a6-4863-8484-6588b3a586b5/mtg_collections.collector_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/collection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="117" column="16" lean-forward="false" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

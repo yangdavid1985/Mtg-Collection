@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  * Created by David on 4/5/17.
  */
 public class MTGCardDaoTest {
-/**
+
     MTGCardDao dao;
     String email;
     ArrayList<MTGCards> cardsToDelete;
@@ -35,10 +35,10 @@ public class MTGCardDaoTest {
 
     @Test
     public void getCard() throws Exception {
-        String testCardName = "island";
+        String testCardName = "Island";
         dao.getCard(testCardName, email);
         cardsToDelete.add(new MTGCards(testCardName, email));
-        assertEquals("Wrong card", "island", dao.getCard("island", email).getCard_name());
+        assertEquals("Wrong card", "Island", dao.getCard("island", email).getCard_name());
     }
 
     @Test
@@ -80,6 +80,5 @@ public class MTGCardDaoTest {
 
         assertNull(dao.getCard(testCardName, email));
     }
-    */
 
 }
