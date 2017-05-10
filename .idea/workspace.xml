@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecdded9e-cdaa-4dc6-a567-d6ad247d8b34" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/logout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/CollectorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/MTGCardDaoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/collection.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/collection.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/CollectorTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/MTGCardDaoTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CollectorTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MTGCardDaoTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/CollectorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/MTGCardDaoTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections.war" afterPath="$PROJECT_DIR$/target/MTG-Collections.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/AddCardServlet.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/AddCardServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectionServlet.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectorServlet.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/controller/CollectorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorRoleDao.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorRoleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorsDao.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/CollectorsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/MTGCardDao.class" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/edu/matc/persistance/MTGCardDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/AddCardServlet.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/AddCardServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectionServlet.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectorServlet.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/controller/CollectorServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorRoleDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorRoleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorsDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/persistance/CollectorsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/matc/persistance/MTGCardDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/persistance/MTGCardDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyAppLog.log" afterPath="$PROJECT_DIR$/MyAppLog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeLog.md" afterPath="$PROJECT_DIR$/TimeLog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/AddCardServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectionServlet.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/CollectorServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/IncreaseCard.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/IncreaseCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorRoleDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/CollectorsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/MTGCardDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistance/MTGCardDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/database.properties" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/collection.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/collection.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/signupSuccess.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/signupSuccess.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/database.properties" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/classes/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/MTG-Collections/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/collection.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/collection.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/index.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/logout.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/logout.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MTG-Collections/signupSuccess.jsp" afterPath="$PROJECT_DIR$/target/MTG-Collections/signupSuccess.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/database.properties" afterPath="$PROJECT_DIR$/target/classes/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-    </list>
+    <list default="true" id="ecdded9e-cdaa-4dc6-a567-d6ad247d8b34" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1296,7 +1244,7 @@
       <workItem from="1492553126833" duration="271000" />
       <workItem from="1492613253266" duration="25724000" />
       <workItem from="1493143861102" duration="1735000" />
-      <workItem from="1493179577850" duration="98627000" />
+      <workItem from="1493179577850" duration="98670000" />
     </task>
     <servers />
   </component>
@@ -1333,7 +1281,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280514000" />
+    <option name="totallyTimeSpent" value="280557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="34" width="1267" height="692" extended-state="0" />
@@ -1343,7 +1291,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5044898" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1360,7 +1308,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38333333" sideWeight="0.49714285" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38333333" sideWeight="0.49714285" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7518367" sideWeight="0.5221239" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

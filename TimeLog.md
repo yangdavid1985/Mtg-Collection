@@ -23,4 +23,4 @@
 | 5/2/17 | Add js to increment card in table | 1 | add function works |
 | 5/3/17 | Add jquery table | 1 | working |
 | 5/4/17 | MTGCardDao and CollectorRoleDao test | 2 | test pass |
-| 5/9/17 | Push project to AWS | 2 | complete |
+| 5/9/17 | Push project to AWS | 2 | not complete |
