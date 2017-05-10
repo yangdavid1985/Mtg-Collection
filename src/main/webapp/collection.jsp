@@ -13,8 +13,7 @@
     <title>MTG-Collection</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet" />
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -27,7 +26,7 @@
                 <a class="navbar-brand" href="index.jsp">MTG-Collections</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="logout.jsp">Logout</a></li>
+                <li><a href="logout">Logout</a></li>
                 <li><a href="addCards.jsp">Add New Card</a></li>
             </ul>
         </div>
@@ -39,35 +38,54 @@
         <div class="page-header">
             <h3>${user}'s collection</h3>
         </div>
-        <div class="table-responsive">
+        <div class="table-responsive container">
             <table id="sort" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Card Name</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tfoot>
                 <tr>
                     <th>Quantity</th>
                     <th>Card Name</th>
                     <th>Edit</th>
                 </tr>
-                <c:forEach var="card" items="${cards}">
-                    <tr name="cardRow">
-                        <td class="col-md-4">
-
-                            <input type="text" class="col-xs-2"  value="${card.quantity}" />
-
-                        </td>
-                        <td class="col-md-4">${card.card_name}</td>
-                        <td class="col-md-4">
-                            <button type="button" class="glyphicon glyphicon-plus" onclick="incrementCard('${card.card_name}')"></button>
-                            <button type="button" class="glyphicon glyphicon-minus" onclick="deleteCard('${card.card_name}')"></button>
-                        </td>
-                    </tr>
-                </c:forEach>
+                </tfoot>
+                <tbody>
+                    <c:forEach var="card" items="${cards}" varStatus="loop">
+                        <tr name="cardRow">
+                            <td class="col-md-4">
+                                <input type="text" class="col-xs-2"  value="${card.quantity}" />
+                            </td>
+                            <td class="col-md-4" id="card${loop.index}">${card.card_name}</td>
+                            <td class="col-md-4">
+                                <button type="button" class="glyphicon glyphicon-plus" onclick="incrementCard('${loop.index}')"></button>
+                                <button type="button" class="glyphicon glyphicon-minus" onclick="deleteCard('${loop.index}')"></button>
+                            </td>
+                        </tr>
+                    </c:forEach>
+                </tbody>
             </table>
             <button type="button" class="btn" onclick="updateCollection()">Save Changes</button>
         </div>
     </div>
 </body>
 </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
 <script>
-    deleteCard = function(cardName) {
+
+    /**
+     * Delete 1 card with delete button
+     *
+     *@param cardName
+     */
+    deleteCard = function(index) {
+        var cardName = $('#card' + index).text();
         $.ajax({
             type: "post",
             url: "deleteCards",
@@ -78,6 +96,10 @@
         });
     };
 
+
+    /**
+     * Allow user to update by entering quantity in input box
+     */
     updateCollection = function(){
         var cards = [];
         var cardQuantity;
@@ -101,9 +123,15 @@
                 location.reload();
             }
         });
-    }
+    };
 
-    incrementCard = function (cardName) {
+    /**
+     * Increment 1 card with add button
+     *
+     * @param cardName
+     */
+    incrementCard = function (index) {
+        var cardName = $('#card' + index).text();
         $.ajax({
             type: "post",
             url: "incrementCard",
@@ -112,9 +140,20 @@
                 location.reload();
             }
         });
-    }
+    };
 
+    /**
+     * Table sorting plugin
+     */
     $(document).ready(function() {
-        $('#sort').DataTable();
+        $('#sort').DataTable(
+            {
+                "aoColumns": [
+                    { "bSortable": false},
+                    null,
+                    {"bSortable": false}
+                ]
+            }
+        );
     } );
 </script>

@@ -1,0 +1,54 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- use form base authentication for searchCollection Page -->
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/WEB-INF/login.jsp</form-login-page>
+      <form-error-page>/WEB-INF/login.jsp</form-error-page>
+    </form-login-config>
+  </login-config>
+  <!-- All sources available only if logged in -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>collection</web-resource-name>
+      <url-pattern>/collection.jsp</url-pattern>
+      <url-pattern>/collection</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>registeredCollector</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>addCards</web-resource-name>
+      <url-pattern>/addCards.jsp</url-pattern>
+      <url-pattern>/addCards</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>registeredCollector</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>login</web-resource-name>
+      <url-pattern>/login</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>registeredCollector</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <security-role>
+    <role-name>registeredCollector</role-name>
+  </security-role>
+</web-app>

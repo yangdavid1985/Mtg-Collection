@@ -17,12 +17,12 @@ import java.io.IOException;
 /**
  * Created by David on 4/6/17.
  */
-@WebServlet("/collection")
+@WebServlet(name = "collection",urlPatterns = "/collection")
 public class CollectionServlet extends HttpServlet {
     private final Logger logger = Logger.getLogger(CollectionServlet.class);
 
 
-    // display collections
+    // display collections by email
     protected void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
         MTGCardDao displayCards = new MTGCardDao();
         String email = request.getRemoteUser();

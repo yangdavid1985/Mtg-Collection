@@ -2,6 +2,7 @@
 <jsp:include page="head.jsp"/>
     <body>
         <div class="container">
+            <div id="logout">${logout}</div>
             <div class="jumbotron">
                 <h2>Welcome to MTG-Collections</h2>
                 <p>

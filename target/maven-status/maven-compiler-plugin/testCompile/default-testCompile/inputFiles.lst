@@ -1,2 +1,4 @@
-/Users/David/IdeaProjects/MTG-Collections/src/test/java/MTGCardDaoTest.java
-/Users/David/IdeaProjects/MTG-Collections/src/test/java/CollectorTest.java
+/Users/David/IdeaProjects/MTG-Collections/src/test/java/edu/matc/entity/CollectorRoleTest.java
+/Users/David/IdeaProjects/MTG-Collections/src/test/java/edu/matc/persistance/CollectorDaoTest.java
+/Users/David/IdeaProjects/MTG-Collections/src/test/java/edu/matc/persistance/MTGCardDaoTest.java
+/Users/David/IdeaProjects/MTG-Collections/src/test/java/edu/matc/persistance/CollectorRoleDaoTest.java

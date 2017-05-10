@@ -3,6 +3,7 @@ package edu.matc.persistance;
 import edu.matc.entity.CardId;
 import edu.matc.entity.MTGCards;
 import org.apache.log4j.Logger;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
@@ -17,26 +18,44 @@ public class MTGCardDao {
 
     private final Logger logger = Logger.getLogger(MTGCardDao.class);
 
+    /**
+     * @param email
+     * @return
+     */
     public List getAllCardsByUsername(String email){
         List getCollection = new ArrayList<>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        getCollection = session.createCriteria(MTGCards.class).add(Restrictions.eq("email", email)).list();
-
+        try {
+            getCollection = session.createCriteria(MTGCards.class).add(Restrictions.eq("email", email)).list();
+        } catch (HibernateException exception) {
+            logger.error(exception.getMessage());
+        } finally {
+            session.close();
+        }
         return  getCollection;
     }
 
     // get card owned username
     public MTGCards getCard(String card_name, String email){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        MTGCards mtgCards;
+        MTGCards mtgCards = null;
 
-        mtgCards = (MTGCards) session.get(MTGCards.class, new CardId(card_name, email));
-
-        session.close();
+        try {
+            mtgCards = (MTGCards) session.get(MTGCards.class, new CardId(card_name, email));
+        } catch (HibernateException exception) {
+            logger.error(exception.getMessage());
+        } finally {
+            session.close();
+        }
 
         return mtgCards;
     }
 
+    /**
+     * @param cardName
+     * @param email
+     * @return
+     */
     // add card to collection
     public int addCard(String cardName, String email) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -74,6 +93,11 @@ public class MTGCardDao {
         return newQuantity;
     }
 
+    /**
+     * @param cardName
+     * @param email
+     * @return
+     */
     // delete card from collection by email
     public int removeCard(String cardName, String email) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -102,42 +126,60 @@ public class MTGCardDao {
         return newQuantity;
     }
 
+    /**
+     * @param mtgCards
+     * @return
+     */
     public int removeCard(MTGCards mtgCards) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-
-        session.persist(mtgCards);
         int currentQuantity = mtgCards.getQuantity();
         int newQuantity = 0;
 
-        if (currentQuantity <= 1) {
-            // remove card from database
-            session.delete(mtgCards);
-        } else {
-            // decrease quantity by 1
-            mtgCards.decrementQuantity();
-            session.update(mtgCards);
-            newQuantity = mtgCards.getQuantity();
-        }
+        try {
+            session.persist(mtgCards);
 
-        transaction.commit();
-        session.close();
+            if (currentQuantity <= 1) {
+                // remove card from database
+                session.delete(mtgCards);
+            } else {
+                // decrease quantity by 1
+                mtgCards.decrementQuantity();
+                session.update(mtgCards);
+                newQuantity = mtgCards.getQuantity();
+            }
+            transaction.commit();
+        } catch (HibernateException exception) {
+            logger.error(exception.getMessage());
+        } finally {
+            session.close();
+        }
 
         return newQuantity;
     }
 
-
-
+    /**
+     * @param cardName
+     * @param quantity
+     * @param email
+     */
     public void setQuantity(String cardName, int quantity, String email) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
 
-        MTGCards card = (MTGCards) session.get(MTGCards.class, new CardId(cardName, email));
+        try {
+            MTGCards card = (MTGCards) session.get(MTGCards.class, new CardId(cardName, email));
 
-        card.setQuantity(quantity);
+            card.setQuantity(quantity);
 
-        session.update(card);
-        transaction.commit();
+            session.update(card);
+            transaction.commit();
+        } catch (HibernateException exception) {
+            logger.error(exception.getMessage());
+        } finally {
+            session.close();
+        }
+
     }
 
 }

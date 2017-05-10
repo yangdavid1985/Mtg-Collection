@@ -1,2 +1,4 @@
-MTGCardDaoTest.class
-CollectorTest.class
+edu/matc/persistance/CollectorDaoTest.class
+edu/matc/entity/CollectorRoleTest.class
+edu/matc/persistance/CollectorRoleDaoTest.class
+edu/matc/persistance/MTGCardDaoTest.class

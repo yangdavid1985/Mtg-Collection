@@ -124,6 +124,15 @@ public class AddCardServlet extends HttpServlet {
         // Convert returned JSON to POJO
         Cards cardsObject = null;
         ObjectMapper mapper = new ObjectMapper();
+
+        /**
+         * A possible solution to unrecognized fields error:
+         * com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "releaseDate"
+         *
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        mapper.setVisibilityChecker(VisibilityChecker.Std.defaultInstance().withFieldVisibility(JsonAutoDetect.Visibility.ANY));
+         */
         cardsObject = mapper.readValue(cards, Cards.class);
 
         // get an array of card names from the POJO

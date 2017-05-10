@@ -3,6 +3,7 @@ edu/matc/persistance/SessionFactoryProvider.class
 edu/matc/controller/CollectorServlet.class
 edu/matc/controller/DeleteCards.class
 edu/matc/persistance/MTGCardDao.class
+edu/matc/controller/Logout.class
 edu/matc/entity/CollectorRole.class
 edu/matc/entity/ForeignNamesItem.class
 edu/matc/persistance/CollectorRoleDao.class

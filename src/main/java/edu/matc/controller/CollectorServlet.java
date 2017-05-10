@@ -61,7 +61,7 @@ public class CollectorServlet extends HttpServlet {
             roleDao.addCollectorRole(role);
 
             collectorsDao.addUser(collectors);
-            logger.info("Adding " + collectors +" to database");
+            logger.info("Adding " + collectors.getEmail() + " with role of " +  roleDao.getRole(collectors.getEmail()).getRole_name() +" to database");
 
 
             RequestDispatcher dispatcher = request.getRequestDispatcher("/signupSuccess.jsp");

@@ -5,6 +5,7 @@
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/CollectorRole.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/controller/AddCardServlet.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/controller/CollectorServlet.java
+/Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/controller/Logout.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/controller/UpdateCollection.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/CollectorRolePK.java
 /Users/David/IdeaProjects/MTG-Collections/src/main/java/edu/matc/entity/Cards.java

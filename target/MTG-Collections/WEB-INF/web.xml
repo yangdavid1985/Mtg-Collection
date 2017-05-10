@@ -26,6 +26,18 @@
       <role-name>registeredCollector</role-name>
     </auth-constraint>
   </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>addCards</web-resource-name>
+      <url-pattern>/addCards.jsp</url-pattern>
+      <url-pattern>/addCards</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>registeredCollector</role-name>
+    </auth-constraint>
+  </security-constraint>
+
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>login</web-resource-name>
@@ -35,6 +47,7 @@
       <role-name>registeredCollector</role-name>
     </auth-constraint>
   </security-constraint>
+
   <security-role>
     <role-name>registeredCollector</role-name>
   </security-role>
